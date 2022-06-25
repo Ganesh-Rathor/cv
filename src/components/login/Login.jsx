@@ -15,7 +15,7 @@ function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("/admin/login", {
+    const response = await fetch("https://ganeshcvbackend.herokuapp.com/admin/login", {
         method: 'POST',
         credentials: 'same-origin',
         headers: {
@@ -59,7 +59,7 @@ const onchange = (e) => {
 }
 
 const verifyuser = async () => {
-  const response = await fetch( "/admin/verify", {
+  const response = await fetch( "https://ganeshcvbackend.herokuapp.com/admin/verify", {
     method: 'GET',
     credentials: 'same-origin',
     headers: {

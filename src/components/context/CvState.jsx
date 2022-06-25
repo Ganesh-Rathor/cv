@@ -12,7 +12,7 @@ const CvState = (props) => {
 
   let url;
   const getMessage = async () => {
-    url = `/cv/fetchreview`;
+    url = `https://ganeshcvbackend.herokuapp.com/cv/fetchreview`;
     const response = await fetch(url, {
       method: 'GET',
       credentials: 'same-origin',
@@ -25,7 +25,7 @@ const CvState = (props) => {
   }
 
   const getContactMessage = async () => {
-    url = `/cv/fetchneedumessage`;
+    url = `https://ganeshcvbackend.herokuapp.com/cv/fetchneedumessage`;
     const response = await fetch( url, {
       method: 'GET',
       credentials: 'same-origin',
@@ -43,7 +43,7 @@ const CvState = (props) => {
 
     // API Call
 
-    url = `/cv/message`;
+    url = `https://ganeshcvbackend.herokuapp.com/cv/message`;
     const response = await fetch(url, {
       method: 'POST',
       credentials: 'same-origin',
@@ -68,7 +68,7 @@ const CvState = (props) => {
 
     // API Call
 
-    url = `/cv/needu`;
+    url = `https://ganeshcvbackend.herokuapp.com/cv/needu`;
     const response = await fetch(url, {
       method: 'POST',
       credentials: 'same-origin',
@@ -92,7 +92,7 @@ const CvState = (props) => {
 
     // API call
 
-    url = `/cv/delete/${id}`;
+    url = `https://ganeshcvbackend.herokuapp.com/cv/delete/${id}`;
     const response = await fetch( url, {
       method: 'DELETE',
       credentials: 'same-origin',

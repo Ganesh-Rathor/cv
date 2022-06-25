@@ -83,7 +83,7 @@ function About() {
           </ul>
         </div>
       </section><br /><br />
-      <div className="credit">Made with <span >❤</span> by <a href="https://www.learningrobo.com/">Learning Robo</a></div>
+      
 
 
     </>
