@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  scrollbar-color: rgb(210, 210, 210) rgb(46, 54, 69) !important;
+  scrollbar-width: thin !important;
+}
+::-webkit-scrollbar {
+  height: 12px;
+  width: 8px;
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: gray;
+}
+::-webkit-scrollbar-corner {
+  background: #000;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+@media screen and (max-width:1200px) {
+    html{
+        font-size: 95%;
+    }
+}
+@media screen and (max-width:1200px) {
+    html{
+        font-size: 95%;
+    }
+}
+@media screen and (max-width:1000px) {
+    html{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width:900px) {
+    html{
+        font-size: 88%;
+    }
+}
+@media screen and (max-width:600px) {
+    html{
+        font-size: 85%;
+    }
+}

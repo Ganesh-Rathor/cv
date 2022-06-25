@@ -1,0 +1,134 @@
+#splash{
+  margin-top: 0!important;
+  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/home.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  margin-top: 50px;
+  padding-top: 15%;
+  padding-bottom: 50px;
+  color: #fff;
+  font-size: 3em;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.5),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+.main-message-box{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  flex-direction: column;
+}
+
+.work-head{
+  margin: 2rem;
+}
+
+  #splash h1{
+    font-size: 2em;
+    margin-bottom: 4rem;
+  }
+
+  #splash a{
+    color: #fff;
+    margin: 1rem;
+  }
+
+  #splash a:hover{
+    color: #e7e7e7;
+  }
+
+  #portfolio{
+    background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/portfolio.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding-bottom: 50px;
+    color: #fff;
+  }
+  
+    #portfolio h1{
+      font-size: 5em;
+      text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                   0px 8px 13px rgba(0,0,0,0.5),
+                   0px 18px 23px rgba(0,0,0,0.1);
+    }
+
+    #portfolio .work-main{
+      color: #FFFFFF;
+      border-radius: 10px;
+    }
+  
+  .thumbnail{
+    position: relative;
+  }
+  
+    .thumbnail img{
+      min-height: 200px;
+      min-width: 300px;
+    }
+  
+  .thumbnail-hover{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 99%;
+    width: 99%;
+    opacity: 0;
+    transition:2s;
+  }
+  
+      .thumbnail-hover:hover{
+      left: 2px;
+      position: absolute;
+      height: 99%;
+      width: 99%;
+      background-color: rgba(0,0,0,0.8);
+      margin: 0 auto;
+      transition:.5s;
+      opacity: 1;
+      padding-top: 28%;
+      border-radius: 5px;
+    }
+  
+    .thumbnail-hover i{
+      text-decoration: none;
+      color: white;
+    }
+  
+  .row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+  }
+  #portfolio img{
+    width: 200px;
+    margin-bottom: 1rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    #splash h1{
+      margin-bottom: 7rem;
+      font-size: 4.4rem;
+    }
+    #splash p{
+      font-size:3rem;
+    }
+    #rebox{
+      font-size: 2rem!important;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    #portfolio img{
+      min-height: 100px;
+      min-width: 150px;
+    }
+    #splash h1{
+      margin-bottom: 4rem;
+      font-size: 3rem;
+    }
+  }
